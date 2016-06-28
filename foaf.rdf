@@ -1,0 +1,23 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:swc="http://data.semanticweb.org/ns/swc/ontology">
+ <foaf:Person rdf:ID='me'>
+   <foaf:name>Hilary Thorsen</foaf:name>
+   <foaf:gender>Female</foaf:gender>
+   <foaf:title>Ms</foaf:title>
+   <foaf:givenname>Hilary</foaf:givenname>
+   <foaf:family_name>Thorsen</foaf:family_name>
+   <foaf:phone rdf:resource="tel:650-725-4420"/>
+   <foaf:workplaceHomepage rdf:resource="http://library.stanford.edu/"/>
+   <foaf:schoolHomepage rdf:resource="http://www.cornell.edu/"/>
+   <foaf:schoolHomepage rdf:resource="http://www.pratt.edu/"/>
+   <swc:attendeeAt rdf:resource="http://www.iskocus.org/nasko2015.php"/>
+   <swc:attendeeAt rdf:resource="http://alaac15.ala.org/"/>
+   <foaf:holdsAccount rdf:resource="https://www.linkedin.com/in/hilary-thorsen-50ba3a16"/>
+   <foaf:knows rdf:resource="https://stanford.edu/~ahafele/foaf.rdf#me"/>
+   <foaf:knows rdf:resource="https://stanford.edu/~laneymcg/laney.rdf#me"/>
+   <foaf:knows rdf:resource="https://stanford.edu/~laneymcg/laura.rdf#me"/>
+   <foaf:knows rdf:resource="https://stanford.edu/~azanella/me.rdf#me"/>
+   <foaf:knows rdf:resource="https://stanford.edu/~arcadia/foaf.rdf#me"/>
+ </foaf:Person>
+</rdf:RDF>
