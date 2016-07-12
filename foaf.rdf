@@ -19,5 +19,10 @@
    <foaf:knows rdf:resource="https://stanford.edu/~laneymcg/laura.rdf#me"/>
    <foaf:knows rdf:resource="https://stanford.edu/~azanella/me.rdf#me"/>
    <foaf:knows rdf:resource="https://stanford.edu/~arcadia/foaf.rdf#me"/>
+   <foaf:interest rdf:resource="http://dbpedia.org/page/Reading"/>
+   <foaf:interest rdf:resource="http://dbpedia.org/page/Cooking"/>
+   <foaf:interest rdf:resource="http://dbpedia.org/page/Baking"/>
+   <foaf:interest rdf:resource="http://dbpedia.org/page/Cycling"/>
+   <foaf:interest rdf:resource="http://dbpedia.org/page/Cockatiel"/>
  </foaf:Person>
 </rdf:RDF>
