@@ -14,15 +14,15 @@ WHERE { ?s foaf:knows ?o}
 "
 
 puts "Before loading"
-sse = SPARQL.parse(query)
-sse.execute(graph) do |result|
+sparql_query = SPARQL.parse(query)
+sparql_query.execute(graph) do |result|
+	#puts result.inspect
 	puts result.o
-	triples = RDF::Resource(RDF::URI.new(result.o))
-	graph.load(triples)
+	graph.load(result.o)
 end
 
 puts "After loading"
-sse.execute(graph) do |result|
+sparql_query.execute(graph) do |result|
 	puts result.o
 end
 
